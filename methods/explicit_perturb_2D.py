@@ -1,3 +1,5 @@
+# Author: Lijing Wang, 2022, lijing52@stanford.edu
+
 # load necessary modules
 import numpy as np
 from tqdm import tqdm
