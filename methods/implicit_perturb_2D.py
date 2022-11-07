@@ -162,9 +162,9 @@ def McMC_levelsets_2Dv2(model, data,
             print('Num_mp: '+str(num_mp)+'Accept ratio: '+str(1-np.sum(loss_array[(start+1):ii]-loss_array[start:(ii-1)]==0)/(ii-start-1))+', Loss function at iter '+str(ii)+': '+str(loss_prev))
             
         if ii%1000==0:
-            np.save('results/intrusion/'+str(num_mp)+'_trend_cache.npy',model_cache[:ii,:,:])
-            np.save('results/intrusion/'+str(num_mp)+'_loss_cache.npy',loss_array[:ii])
-            np.save('results/intrusion/'+str(num_mp)+'_para_cache.npy',para_array[:ii,:])
+            np.save('results/Case2_intrusion/'+str(num_mp)+'_trend_cache.npy',model_cache[:ii,:,:])
+            np.save('results/Case2_intrusion/'+str(num_mp)+'_loss_cache.npy',loss_array[:ii])
+            np.save('results/Case2_intrusion/'+str(num_mp)+'_para_cache.npy',para_array[:ii,:])
         
     return [model_cache, loss_array, para_array]
 
@@ -229,7 +229,7 @@ def mp_non_stationary_implicit_2D(args):
                                                                 sigma, t_step, iter_num, 
                                                                 vel_range_x, vel_range_y,
                                                                 anisotropy_ang,num_mp)
-    np.save('results/intrusion/'+str(num_mp)+'_model_cache.npy',model_cache)
-    np.save('results/intrusion/'+str(num_mp)+'_loss_cache.npy',loss_cache)
-    np.save('results/intrusion/'+str(num_mp)+'_para_cache.npy',para_cache)
+    np.save('results/Case2_intrusion/'+str(num_mp)+'_model_cache.npy',model_cache)
+    np.save('results/Case2_intrusion/'+str(num_mp)+'_loss_cache.npy',loss_cache)
+    np.save('results/Case2_intrusion/'+str(num_mp)+'_para_cache.npy',para_cache)
     return
