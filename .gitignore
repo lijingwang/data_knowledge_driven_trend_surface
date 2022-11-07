@@ -1,1 +1,5 @@
 results
+data/Case3_palaeovalley/AEM_pixels.npy
+data/Case3_palaeovalley/AEM_voxel_point.npy
+data/Case3_palaeovalley/AEM_pixels_depth.npy
+data/Case3_palaeovalley/sparse_kriging
