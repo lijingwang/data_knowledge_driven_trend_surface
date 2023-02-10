@@ -1,4 +1,4 @@
-## Data-knowledge-driven trend surface analysis
+# Data-knowledge-driven trend surface analysis
 
 ### What is this repository for?
 This repo is for a data-knowledge-driven trend surface analysis, where the trend surface analysis is a common task in geostatistics and geological interface modeling. Data-knowledge-driven means that we combine many different data sources including borehole data and geophysical surveys and also geological knowledge such as the delineation from geologists. 
