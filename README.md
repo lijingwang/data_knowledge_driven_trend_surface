@@ -7,5 +7,5 @@
 ### How to use this repo? 
 
 ### Who do I talk to?
-Lijing Wang, Stanford University, mollywang52 AT gmail Dot com
+Lijing Wang, Stanford University, mollywang52 AT gmail DOT com
 
