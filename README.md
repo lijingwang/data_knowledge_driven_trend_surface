@@ -11,13 +11,13 @@ This repo has the trend surface analysis both on the explicit modeling and impli
 
 
 ### How do I get set up?
-Please download the .zip file or use 
+Please download the .zip file or run  
 
 ```
 git clone https://github.com/lijingwang/data_knowledge_driven_trend_surface.git
 ```
 
-using command line. 
+in your command line. 
 
 ### How to use the code? 
 There are three main folders in this repo: data, methods and notebook. 
