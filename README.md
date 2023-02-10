@@ -26,7 +26,7 @@ There are three main folders in this repo: data, methods and notebook.
 
 - The methods folder have three implementations for data-knowledge-driven trend surface constructions using Metropolis Hastings. Based on your project, where you can choose 2D or 3D model, explicit or implicit. The definition of the density function for multiple datasets are also within these three .py files. 
 
-- The notebook folder should be your best friend. You can learn how the Metropolis Hastings algorithm was used to generate stochastic geological interfaces while meeting the criteria of both data and geological knowledge. 
+- The notebook folder should be your best friend. You can learn how the Metropolis Hastings algorithm was used to generate stochastic geological interfaces while meeting the criteria of both data and geological knowledge. Please run the test in each of the notebooks. 
 
 
 ### Who do I talk to?
