@@ -19,6 +19,9 @@ git clone https://github.com/lijingwang/data_knowledge_driven_trend_surface.git
 
 in your command line. 
 
+Required packages: 
+gstools, statsmodels, tqdm, scipy, numpy, statsmodels, skfmm, sys, geostatspy, earthpy, skimage, multiprocessing, imageio, pysheds, rasterio
+
 ### How to use the code? 
 There are three main folders in this repo: data, methods and notebook. 
 
@@ -28,7 +31,8 @@ There are three main folders in this repo: data, methods and notebook.
 
 - The notebook folder should be your best friend. You can learn how the Metropolis Hastings algorithm was used to generate stochastic geological interfaces while meeting the criteria of both data and geological knowledge. Please run the test in each of the notebooks. 
 
+- When you run the MCMC method, please start with a large perturbation velocity range compared to the domain you set up and try 1,000 steps to start. This whole process might take long and need trial and error on tuning the perturbation velocity field, the density functions and the hyperparameter $\omega$. You can start to run longer and multiple chains after you explore the first round of results. 
 
 ### Who do I talk to?
-Lijing Wang, Stanford University, mollywang52 AT gmail DOT com
+Lijing Wang, Stanford University, mollywang at gmail dot com
 
